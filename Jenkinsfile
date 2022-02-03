@@ -1,4 +1,3 @@
-Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
     environment {
@@ -15,7 +14,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing the application'
             }
         }
         stage('Deploy') {
